@@ -1,0 +1,12 @@
+use pdcExcelDB
+db.excelList.insert( {
+     fileName: "file2",
+     metaData: {
+        author:"pop",
+        description:"new file",
+        lastUpdatedDate:"29/1/22"
+     },
+     categories:{main:"trial",sub:"test"},
+     hyperLink:"www.google.com",
+     customTags:["new","test","water"] 
+    } )
